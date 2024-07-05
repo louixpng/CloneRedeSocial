@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --cream-white: #FCF9F0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cream-white);
+    -webkit-font-smoothing: antialiased;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
